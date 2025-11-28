@@ -1,0 +1,172 @@
+html{
+    margin: 0vh;
+}
+
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#all{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 30;
+    top: 10%;
+    color: #FFE68A;
+
+}
+
+#img1{
+    margin: 0vh 15vh 0vh 15vh;
+    z-index: 20;
+}
+
+.text{
+    font-size: 20px;
+    color: #555555;
+}
+
+
+li{
+    color: #555555;
+    font-size: 20px;
+}
+
+.texth{
+    font-size: 30px;
+    color: #FFE68A;
+}
+
+.te{
+    font-size: 30px;
+    color: #FFE68A;
+}
+
+.to{
+    font-size: 20px;
+    color: #555555;
+}
+
+#lu{
+    height: 90vh;
+    background: #e0e0e0;
+    box-shadow:  -20px -20px 9px #bebebe,
+    20px 20px 9px #6EA8FE;
+    font-size: 25px;
+    background-image:  url(al.jpg);
+    border-radius: 41px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0vh 0vh 5vh 0vh;
+}
+
+#fa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image:  url(pag5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 41px;
+}
+
+#invo{
+    display: flex;
+}
+
+#into2{
+    padding: 2vh;
+    border-radius: 41px;
+    background-color: #6EA8FE;
+    height: 93vh;
+}
+
+#into{
+    width: 100vh;
+    align-items: center;
+    height: 90vh;
+    background-image:  url(pag8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 41px;
+}
+
+#intot{font-size: 30px;
+    color: #FFE68A;
+}
+
+#one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    width: 30vh;
+    height: 41vh;
+    margin: 0vh 0vh 20vh 20vh;
+    background-color: #6EA8FE;
+    border-radius: 41px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    #fa {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    #one {
+        width: 80%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    #two {
+        width: 80%;
+        height: auto;
+        margin: 20px auto;
+    }
+}
+
+#two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    width: 30vh;
+    height: 41vh;
+    margin: 0vh 0vh 20vh 20vh;
+    background-color: #6EA8FE;
+    border-radius: 41px;
+    cursor: pointer;
+}
+
+
+#into{
+    margin: 3vh 2vh 10vh 3vh;
+}
+
+#end{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    border-radius: 41px;
+    margin: 3vh 0vh 0vh 0vh;
+    display: flex;
+    background-color: #6EA8FE;
+}
+
+#pagf{
+    border-radius: 50%;
+}
+
+.goPage{
+    cursor: pointer;
+}
