@@ -39,5 +39,19 @@
             <img src="images.jpg" alt="namad" srcset="" id="pagf">
             <p class="text">جهت ثبت سفارش یا اطلاعات بیشتر با شماره 0912xxxyyzz تماس حاصل فرمایید </p>
         </article>
+        <script>
+            
+const divs = document.querySelectorAll(".box1");
+
+divs.forEach(function(div) {
+    div.addEventListener("click", function() {
+        window.scrollTo({
+            top: document.body.scrollHeight,
+            behavior: "smooth"
+        });
+    });
+});
+        </script>
     </body>
+
 </html>
